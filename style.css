@@ -1,0 +1,79 @@
+/* DANGER COLOR: #dc3545 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+}
+
+.guess {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.guess-title {
+  font-size: 3.2rem;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+.guess-logic {
+  background-color: #417be6;
+  color: #fff;
+  padding: 2rem 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.guess-limit {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.guess-message {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.guess-form {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+}
+
+.guess-input {
+  border: none;
+  padding: 1rem 2rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  background-color: rgb(247, 247, 247, 0.8);
+}
+
+.guess-input:focus {
+  outline: none;
+}
+
+.guess-btn {
+  background-color: #f7f7f7;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
